@@ -418,7 +418,8 @@ This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**Nikhil Kumar Sah**
+**Nikhil Sah**  
+📧 Email: nikhilkumar_sah@srmap.edu.in
 
 ## 🙏 Acknowledgments
 
