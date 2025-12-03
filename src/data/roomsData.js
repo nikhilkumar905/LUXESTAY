@@ -1,0 +1,1151 @@
+export const roomsData = [
+  // Mumbai Rooms
+  {
+    id: "mumbai-001",
+    city: "Mumbai",
+    name: "Sea-Facing Deluxe Room at Marine Drive",
+    type: "Deluxe",
+    description: "Luxurious sea-facing room with panoramic views of the Arabian Sea. Walking distance to Marine Drive promenade and Gateway of India.",
+    priceINR: 4500,
+    price: 4500,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 156,
+    location: "Marine Drive, South Mumbai, Maharashtra",
+    address: "Netaji Subhash Chandra Bose Road, Marine Drive, Mumbai 400020",
+    distanceToCityCenter: "2 km from Gateway of India",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800',
+      'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa', 'gym'],
+    capacity: 3,
+    bedType: 'King Size',
+    available: true,
+    features: ['Sea View', 'King Bed', 'Private Balcony', 'Mini Bar', 'Room Service', '24/7 Concierge'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Free WiFi', 'Sea View', 'Pool Access', 'Breakfast Included'],
+    bestFor: ['Couples', 'Business Travelers', 'Luxury Seekers'],
+    reviewsList: [
+      { name: 'Rajesh Kumar', date: '2 days ago', rating: 5, comment: 'Amazing room with beautiful Arabian Sea views! Highly recommended.' },
+      { name: 'Priya Sharma', date: '1 week ago', rating: 5, comment: 'Perfect location and excellent service. Will definitely return!' },
+      { name: 'Amit Patel', date: '2 weeks ago', rating: 4, comment: 'Great room and location. Worth the price!' }
+    ]
+  },
+  {
+    id: "mumbai-002",
+    city: "Mumbai",
+    name: "Cozy Studio near Bandra Fort",
+    type: "Studio",
+    description: "Trendy studio apartment in hip Bandra neighborhood. Close to Bandstand, cafes, and shopping streets.",
+    priceINR: 3200,
+    price: 3200,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 89,
+    location: "Bandra West, Mumbai, Maharashtra",
+    address: "Hill Road, Bandra West, Mumbai 400050",
+    distanceToCityCenter: "12 km from Gateway of India",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800',
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'kitchen', 'coffee'],
+    capacity: 2,
+    bedType: 'Double Bed',
+    available: true,
+    features: ['City View', 'Queen Bed', 'Kitchenette', 'Work Desk', 'Smart TV'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Free WiFi', 'Kitchen', 'AC', 'Netflix'],
+    bestFor: ['Solo Travelers', 'Couples', 'Extended Stay'],
+    reviewsList: [
+      { name: 'Sneha Desai', date: '3 days ago', rating: 5, comment: 'Perfect for a weekend getaway in Bandra!' },
+      { name: 'Vikram Singh', date: '1 week ago', rating: 4, comment: 'Good location, clean and comfortable.' }
+    ]
+  },
+  {
+    id: "mumbai-003",
+    city: "Mumbai",
+    name: "Luxury Suite at Juhu Beach",
+    type: "Suite",
+    description: "Premium beach-facing suite with direct access to Juhu Beach. Perfect for families and luxury seekers.",
+    priceINR: 6500,
+    price: 6500,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 203,
+    location: "Juhu, Mumbai, Maharashtra",
+    address: "Juhu Tara Road, Juhu, Mumbai 400049",
+    distanceToCityCenter: "18 km from Gateway of India",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa', 'gym', 'beach-access'],
+    capacity: 4,
+    bedType: 'King Size',
+    available: true,
+    features: ['Beach View', 'King Bed', 'Living Room', 'Mini Bar', 'Butler Service', 'Private Balcony'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Beach Access', 'Pool', 'Spa', 'Breakfast'],
+    bestFor: ['Families', 'Honeymoon', 'Beach Lovers'],
+    reviewsList: [
+      { name: 'Karan Malhotra', date: '1 week ago', rating: 5, comment: 'Excellent beach-facing suite! Perfect for families.' },
+      { name: 'Anjali Reddy', date: '2 weeks ago', rating: 5, comment: 'Luxurious and comfortable. Great service!' }
+    ]
+  },
+  {
+    id: "mumbai-004",
+    city: "Mumbai",
+    name: "Business Hotel near BKC",
+    type: "Deluxe",
+    description: "Modern business hotel in Bandra Kurla Complex. Ideal for corporate travelers with excellent connectivity.",
+    priceINR: 4000,
+    price: 4000,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 142,
+    location: "Bandra Kurla Complex, Mumbai, Maharashtra",
+    address: "C-58, G Block, BKC, Mumbai 400051",
+    distanceToCityCenter: "15 km from Gateway of India",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Coffee Maker', 'Iron'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Free WiFi', 'Business Center', 'Gym', 'Parking'],
+    bestFor: ['Business Travelers', 'Corporate Events', 'Meetings'],
+    reviewsList: [
+      { name: 'Rohan Kapoor', date: '4 days ago', rating: 5, comment: 'Perfect for business trips. Great location in BKC.' },
+      { name: 'Meera Joshi', date: '1 week ago', rating: 4, comment: 'Clean, professional, and convenient.' }
+    ]
+  },
+  
+  // Goa Rooms
+  {
+    id: "goa-001",
+    city: "Goa",
+    name: "Beach Shack at Anjuna",
+    type: "Bungalow",
+    description: "Charming beach shack steps from Anjuna Beach. Perfect for beach lovers seeking a relaxed Goan vibe.",
+    priceINR: 2800,
+    price: 2800,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 118,
+    location: "Anjuna, North Goa, Goa",
+    address: "Anjuna Beach Road, Anjuna, Goa 403509",
+    distanceToCityCenter: "18 km from Panaji",
+    images: [
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800',
+      'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'beach-access', 'bbq'],
+    capacity: 3,
+    bedType: 'Double Bed',
+    available: true,
+    features: ['Beach View', 'Queen Bed', 'Outdoor Seating', 'Beach Access', 'BBQ Area'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Beach Access', 'WiFi', 'AC', 'BBQ'],
+    bestFor: ['Beach Lovers', 'Couples', 'Backpackers'],
+    reviewsList: [
+      { name: 'Arjun Menon', date: '3 days ago', rating: 5, comment: 'Perfect beach shack! Loved the location and vibe.' },
+      { name: 'Kavya Nair', date: '1 week ago', rating: 4, comment: 'Great stay, very close to the beach and flea market.' }
+    ]
+  },
+  {
+    id: "goa-002",
+    city: "Goa",
+    name: "Portuguese Villa in Panjim",
+    type: "Villa",
+    description: "Restored Portuguese-era villa in the heart of Panjim. Features colonial architecture and modern amenities.",
+    priceINR: 5500,
+    price: 5500,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 134,
+    location: "Fontainhas, Panjim, Goa",
+    address: "31st January Road, Fontainhas, Panjim, Goa 403001",
+    distanceToCityCenter: "1 km from Panjim city center",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'kitchen', 'garden', 'pool'],
+    capacity: 6,
+    available: true,
+    features: ['Colonial Architecture', 'King Bed', 'Courtyard', 'Full Kitchen', 'Heritage Property'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Heritage Property', 'Pool', 'Kitchen', 'Garden'],
+    bestFor: ['Families', 'History Buffs', 'Culture Lovers'],
+    reviewsList: [
+      { name: 'Sanjay Deshmukh', date: '2 days ago', rating: 5, comment: 'Beautiful heritage property. Loved the Portuguese charm!' },
+      { name: 'Neha Gupta', date: '1 week ago', rating: 5, comment: 'Excellent stay in Fontainhas. Very authentic!' }
+    ]
+  },
+  {
+    id: "goa-003",
+    city: "Goa",
+    name: "Luxury Resort Room at Candolim",
+    type: "Deluxe",
+    description: "5-star resort room with private balcony overlooking Candolim Beach. All-inclusive amenities.",
+    priceINR: 7500,
+    price: 7500,
+    currency: "INR",
+    rating: 4.9,
+    reviews: 245,
+    location: "Candolim, North Goa, Goa",
+    address: "Fort Aguada Road, Candolim, Goa 403515",
+    distanceToCityCenter: "14 km from Panaji",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa', 'gym', 'beach-access'],
+    capacity: 4,
+    available: true,
+    features: ['Sea View', 'King Bed', 'Private Balcony', 'Mini Bar', 'Butler Service', 'Beach Access'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Beach Access', 'Spa', 'Pool', 'All-Inclusive'],
+    bestFor: ['Luxury Seekers', 'Honeymoon', 'Families'],
+    reviewsList: [
+      { name: 'Rahul Khanna', date: '4 days ago', rating: 5, comment: 'Outstanding luxury resort! Worth every rupee.' },
+      { name: 'Simran Kaur', date: '1 week ago', rating: 5, comment: 'Perfect honeymoon destination. Excellent service!' }
+    ]
+  },
+  {
+    id: "goa-004",
+    city: "Goa",
+    name: "Budget Hostel near Baga Beach",
+    type: "Studio",
+    description: "Clean and affordable hostel room near Baga Beach. Great for solo travelers and backpackers.",
+    priceINR: 1500,
+    price: 1500,
+    currency: "INR",
+    rating: 4.3,
+    reviews: 198,
+    location: "Baga, North Goa, Goa",
+    address: "Baga Beach Road, Baga, Goa 403516",
+    distanceToCityCenter: "16 km from Panaji",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee'],
+    capacity: 2,
+    available: true,
+    features: ['Shared Kitchen', 'Common Area', 'Locker', 'Clean Linens'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['WiFi', 'AC', 'Near Beach', 'Budget Friendly'],
+    bestFor: ['Solo Travelers', 'Backpackers', 'Budget Travel'],
+    reviewsList: [
+      { name: 'Aditya Sharma', date: '2 days ago', rating: 4, comment: 'Great budget option near Baga. Met awesome people!' },
+      { name: 'Tanvi Patel', date: '5 days ago', rating: 4, comment: 'Clean and affordable. Perfect for backpackers.' }
+    ]
+  },
+
+  // Delhi Rooms
+  {
+    id: "delhi-001",
+    city: "Delhi",
+    name: "Heritage Haveli in Chandni Chowk",
+    type: "Suite",
+    description: "Restored 200-year-old haveli in Old Delhi. Experience traditional Mughal hospitality with modern comforts.",
+    priceINR: 4800,
+    price: 4800,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 167,
+    location: "Chandni Chowk, Old Delhi, Delhi",
+    address: "Gali Paranthe Wali, Chandni Chowk, Delhi 110006",
+    distanceToCityCenter: "3 km from Connaught Place",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'breakfast'],
+    capacity: 4,
+    available: true,
+    features: ['Heritage Property', 'King Bed', 'Traditional Decor', 'Courtyard', 'Rooftop Access'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Heritage', 'Breakfast', 'WiFi', 'Rooftop'],
+    bestFor: ['Culture Seekers', 'Families', 'History Lovers'],
+    reviewsList: [
+      { name: 'Vikram Malhotra', date: '3 days ago', rating: 5, comment: 'Authentic Old Delhi experience! Loved the heritage charm.' },
+      { name: 'Ritu Chopra', date: '1 week ago', rating: 4, comment: 'Great location to explore Chandni Chowk. Unique stay!' }
+    ]
+  },
+  {
+    id: "delhi-002",
+    city: "Delhi",
+    name: "Modern Apartment in South Delhi",
+    type: "Apartment",
+    description: "Contemporary 2BHK in posh Hauz Khas. Close to cafes, boutiques, and the historic Hauz Khas Fort.",
+    priceINR: 5200,
+    price: 5200,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 142,
+    location: "Hauz Khas, South Delhi, Delhi",
+    address: "Hauz Khas Village, South Delhi, Delhi 110016",
+    distanceToCityCenter: "12 km from Connaught Place",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800',
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'kitchen', 'laundry'],
+    capacity: 4,
+    available: true,
+    features: ['City View', '2 Bedrooms', 'Full Kitchen', 'Work Desk', 'Balcony'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Full Kitchen', 'WiFi', 'Parking', 'Trendy Area'],
+    bestFor: ['Families', 'Digital Nomads', 'Extended Stay'],
+    reviewsList: [
+      { name: 'Ankit Verma', date: '2 days ago', rating: 5, comment: 'Perfect location in Hauz Khas! Great cafes nearby.' },
+      { name: 'Pooja Agarwal', date: '6 days ago', rating: 4, comment: 'Modern and spacious. Loved the neighborhood!' }
+    ]
+  },
+  {
+    id: "delhi-003",
+    city: "Delhi",
+    name: "Business Hotel at Aerocity",
+    type: "Deluxe",
+    description: "Premium business hotel near IGI Airport. Perfect for transit passengers and business travelers.",
+    priceINR: 6500,
+    price: 6500,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 289,
+    location: "Aerocity, New Delhi, Delhi",
+    address: "Hospitality District, Aerocity, New Delhi 110037",
+    distanceToCityCenter: "15 km from Connaught Place",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'spa', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Airport Shuttle'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Airport Shuttle', 'Business Center', 'Gym', 'Free WiFi'],
+    bestFor: ['Business Travelers', 'Transit Passengers', 'Corporate Events'],
+    reviewsList: [
+      { name: 'Rajat Singhal', date: '1 day ago', rating: 5, comment: 'Excellent for airport transit! Very convenient.' },
+      { name: 'Deepika Rao', date: '4 days ago', rating: 5, comment: 'Professional service and great amenities.' }
+    ]
+  },
+  {
+    id: "delhi-004",
+    city: "Delhi",
+    name: "Boutique Room in Connaught Place",
+    type: "Deluxe",
+    description: "Stylish boutique hotel in the heart of Delhi. Walking distance to major attractions and metro.",
+    priceINR: 4200,
+    price: 4200,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 176,
+    location: "Connaught Place, Central Delhi, Delhi",
+    address: "Kasturba Gandhi Marg, Connaught Place, Delhi 110001",
+    distanceToCityCenter: "In city center",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'coffee', 'breakfast'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'Queen Bed', 'Boutique Design', 'Mini Bar', 'Breakfast'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Central Location', 'Breakfast', 'Metro Access', 'WiFi'],
+    bestFor: ['Solo Travelers', 'Couples', 'Sightseeing'],
+    reviewsList: [
+      { name: 'Manish Gupta', date: '3 days ago', rating: 4, comment: 'Great central location! Easy to explore Delhi.' },
+      { name: 'Shruti Iyer', date: '1 week ago', rating: 5, comment: 'Stylish boutique hotel. Loved the design!' }
+    ]
+  },
+
+  // Jaipur Rooms
+  {
+    id: "jaipur-001",
+    city: "Jaipur",
+    name: "Royal Palace Room at Jaipur City Palace",
+    type: "Suite",
+    description: "Experience royalty in this palace suite with traditional Rajasthani decor and modern luxuries.",
+    priceINR: 8500,
+    price: 8500,
+    currency: "INR",
+    rating: 4.9,
+    reviews: 218,
+    location: "City Palace Area, Jaipur, Rajasthan",
+    address: "Near City Palace, Old City, Jaipur 302002",
+    distanceToCityCenter: "In Pink City center",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa', 'concierge'],
+    capacity: 4,
+    available: true,
+    features: ['Palace View', 'King Bed', 'Traditional Decor', 'Private Terrace', 'Butler Service'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Heritage', 'Butler Service', 'Pool', 'Royal Experience'],
+    bestFor: ['Luxury Seekers', 'Honeymoon', 'Special Occasions'],
+    reviewsList: [
+      { name: 'Aryan Singh', date: '2 days ago', rating: 5, comment: 'Lived like royalty! Unforgettable experience.' },
+      { name: 'Divya Rajput', date: '1 week ago', rating: 5, comment: 'Stunning palace suite! Perfect for honeymoon.' }
+    ]
+  },
+  {
+    id: "jaipur-002",
+    city: "Jaipur",
+    name: "Haveli Stay in Johari Bazaar",
+    type: "Suite",
+    description: "Traditional haveli converted into a boutique hotel. Experience authentic Jaipur hospitality.",
+    priceINR: 3800,
+    price: 3800,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 145,
+    location: "Johari Bazaar, Jaipur, Rajasthan",
+    address: "Johari Bazaar Road, Old City, Jaipur 302003",
+    distanceToCityCenter: "1 km from City Palace",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'breakfast', 'rooftop'],
+    capacity: 3,
+    available: true,
+    features: ['Heritage Property', 'King Bed', 'Rooftop Dining', 'Traditional Decor', 'Courtyard'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Heritage', 'Rooftop', 'Breakfast', 'Shopping Area'],
+    bestFor: ['Culture Lovers', 'Families', 'Photography'],
+    reviewsList: [
+      { name: 'Kabir Mehra', date: '4 days ago', rating: 5, comment: 'Authentic Jaipur experience! Great rooftop view.' },
+      { name: 'Isha Saxena', date: '1 week ago', rating: 4, comment: 'Beautiful haveli. Perfect location for shopping!' }
+    ]
+  },
+  {
+    id: "jaipur-003",
+    city: "Jaipur",
+    name: "Modern Hotel near Amber Fort",
+    type: "Deluxe",
+    description: "Contemporary hotel with views of Amber Fort. Ideal base for exploring Jaipur's forts and palaces.",
+    priceINR: 4500,
+    price: 4500,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 192,
+    location: "Amber, Jaipur, Rajasthan",
+    address: "Amber Fort Road, Amber, Jaipur 302002",
+    distanceToCityCenter: "11 km from Pink City",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'gym'],
+    capacity: 3,
+    available: true,
+    features: ['Fort View', 'King Bed', 'Balcony', 'Modern Design', 'Pool Access'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Fort View', 'Pool', 'WiFi', 'Parking'],
+    bestFor: ['Sightseeing', 'Families', 'Photographers'],
+    reviewsList: [
+      { name: 'Nikhil Jain', date: '3 days ago', rating: 5, comment: 'Amazing fort views! Great base for exploration.' },
+      { name: 'Sonia Kapoor', date: '6 days ago', rating: 4, comment: 'Modern comforts with traditional views. Loved it!' }
+    ]
+  },
+  {
+    id: "jaipur-004",
+    city: "Jaipur",
+    name: "Budget Guest House in Bani Park",
+    type: "Standard",
+    description: "Clean and affordable guest house in peaceful Bani Park. Great for budget travelers.",
+    priceINR: 1800,
+    price: 1800,
+    currency: "INR",
+    rating: 4.3,
+    reviews: 124,
+    location: "Bani Park, Jaipur, Rajasthan",
+    address: "Bani Park, Near Railway Station, Jaipur 302016",
+    distanceToCityCenter: "3 km from City Palace",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'breakfast'],
+    capacity: 2,
+    available: true,
+    features: ['Clean Room', 'Queen Bed', 'Shared Terrace', 'Travel Desk'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Budget Friendly', 'Breakfast', 'WiFi', 'Near Station'],
+    bestFor: ['Budget Travelers', 'Backpackers', 'Solo Travelers'],
+    reviewsList: [
+      { name: 'Rahul Bhatt', date: '2 days ago', rating: 4, comment: 'Good budget option. Clean and friendly staff.' },
+      { name: 'Priyanka Das', date: '5 days ago', rating: 4, comment: 'Great value for money. Convenient location!' }
+    ]
+  },
+
+  // Bengaluru Rooms
+  {
+    id: "bengaluru-001",
+    city: "Bengaluru",
+    name: "Tech Hub Hotel near Koramangala",
+    type: "Deluxe",
+    description: "Modern hotel in Bengaluru's tech hub. Perfect for IT professionals and startups with coworking spaces.",
+    priceINR: 3800,
+    price: 3800,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 187,
+    location: "Koramangala, Bengaluru, Karnataka",
+    address: "80 Feet Road, Koramangala 5th Block, Bengaluru 560095",
+    distanceToCityCenter: "8 km from MG Road",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Coworking Access'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Coworking', 'Gym', 'Cafe'],
+    bestFor: ['Business Travelers', 'Tech Professionals', 'Digital Nomads'],
+    reviewsList: [
+      { name: 'Karthik Reddy', date: '3 days ago', rating: 5, comment: 'Perfect for work! Great internet and coworking space.' },
+      { name: 'Sowmya Krishna', date: '1 week ago', rating: 4, comment: 'Excellent location in Koramangala. Very convenient!' }
+    ]
+  },
+  {
+    id: "bengaluru-002",
+    city: "Bengaluru",
+    name: "Garden City Boutique Stay",
+    type: "Suite",
+    description: "Charming boutique hotel surrounded by gardens in Indiranagar. Peaceful retreat in the city.",
+    priceINR: 4200,
+    price: 4200,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 156,
+    location: "Indiranagar, Bengaluru, Karnataka",
+    address: "100 Feet Road, Indiranagar, Bengaluru 560038",
+    distanceToCityCenter: "6 km from MG Road",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'garden', 'breakfast'],
+    capacity: 3,
+    available: true,
+    features: ['Garden View', 'King Bed', 'Balcony', 'Mini Bar', 'Breakfast Included'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Garden View', 'Breakfast', 'WiFi', 'Peaceful'],
+    bestFor: ['Couples', 'Relaxation', 'Nature Lovers'],
+    reviewsList: [
+      { name: 'Vishal Rao', date: '2 days ago', rating: 5, comment: 'Beautiful garden oasis in the city!' },
+      { name: 'Lakshmi Iyer', date: '5 days ago', rating: 4, comment: 'Peaceful and lovely location. Great breakfast!' }
+    ]
+  },
+  {
+    id: "bengaluru-003",
+    city: "Bengaluru",
+    name: "Luxury Suite at Whitefield",
+    type: "Suite",
+    description: "Premium suite in IT corridor. Close to tech parks and malls with world-class amenities.",
+    priceINR: 5500,
+    price: 5500,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 203,
+    location: "Whitefield, Bengaluru, Karnataka",
+    address: "ITPL Main Road, Whitefield, Bengaluru 560066",
+    distanceToCityCenter: "18 km from MG Road",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa', 'gym'],
+    capacity: 4,
+    available: true,
+    features: ['City View', 'King Bed', 'Living Room', 'Mini Bar', 'Butler Service'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Pool', 'Spa', 'Near Tech Parks', 'Butler Service'],
+    bestFor: ['Business Travelers', 'Luxury Seekers', 'Corporate Events'],
+    reviewsList: [
+      { name: 'Ravi Kumar', date: '4 days ago', rating: 5, comment: 'Excellent luxury suite! Perfect for business trips.' },
+      { name: 'Ananya Singh', date: '1 week ago', rating: 5, comment: 'Outstanding service and amenities!' }
+    ]
+  },
+  {
+    id: "bengaluru-004",
+    city: "Bengaluru",
+    name: "Coworking Stay at HSR Layout",
+    type: "Studio",
+    description: "Studio apartment with built-in coworking space. Perfect for remote workers and entrepreneurs.",
+    priceINR: 2800,
+    price: 2800,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 134,
+    location: "HSR Layout, Bengaluru, Karnataka",
+    address: "27th Main Road, HSR Layout, Bengaluru 560102",
+    distanceToCityCenter: "12 km from MG Road",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'kitchen', 'coffee'],
+    capacity: 2,
+    available: true,
+    features: ['Work Desk', 'High-Speed WiFi', 'Ergonomic Chair', 'Kitchenette', 'Smart TV'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Work Setup', 'Kitchen', 'Coffee'],
+    bestFor: ['Digital Nomads', 'Remote Workers', 'Entrepreneurs'],
+    reviewsList: [
+      { name: 'Aakash Mehta', date: '3 days ago', rating: 4, comment: 'Great for remote work! Excellent internet.' },
+      { name: 'Prerna Shah', date: '1 week ago', rating: 5, comment: 'Perfect workation spot!' }
+    ]
+  },
+
+  // Chennai Rooms
+  {
+    id: "chennai-001",
+    city: "Chennai",
+    name: "Beach Resort at Marina",
+    type: "Deluxe",
+    description: "Beachfront resort room with views of Marina Beach. Experience Chennai's famous sunrise.",
+    priceINR: 4500,
+    price: 4500,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 198,
+    location: "Marina Beach, Chennai, Tamil Nadu",
+    address: "Beach Road, Marina, Chennai 600002",
+    distanceToCityCenter: "5 km from Central Chennai",
+    images: [
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800',
+      'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'beach-access'],
+    capacity: 3,
+    available: true,
+    features: ['Beach View', 'King Bed', 'Balcony', 'Mini Bar', 'Beach Access'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Beach Access', 'Pool', 'Sea View', 'Breakfast'],
+    bestFor: ['Beach Lovers', 'Families', 'Sunrise Seekers'],
+    reviewsList: [
+      { name: 'Suresh Kumar', date: '2 days ago', rating: 5, comment: 'Beautiful beach views! Loved the sunrise.' },
+      { name: 'Divya Ramesh', date: '1 week ago', rating: 4, comment: 'Great location on Marina Beach. Very relaxing!' }
+    ]
+  },
+  {
+    id: "chennai-002",
+    city: "Chennai",
+    name: "Heritage Hotel in Mylapore",
+    type: "Suite",
+    description: "Colonial-era heritage hotel in cultural heart of Chennai. Near Kapaleeshwarar Temple.",
+    priceINR: 3800,
+    price: 3800,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 145,
+    location: "Mylapore, Chennai, Tamil Nadu",
+    address: "Kutchery Road, Mylapore, Chennai 600004",
+    distanceToCityCenter: "3 km from Central Chennai",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'breakfast'],
+    capacity: 3,
+    available: true,
+    features: ['Heritage Property', 'King Bed', 'Traditional Decor', 'Courtyard', 'Cultural Tours'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Heritage', 'Cultural Tours', 'Breakfast', 'Temple Nearby'],
+    bestFor: ['Culture Lovers', 'History Buffs', 'Temple Visitors'],
+    reviewsList: [
+      { name: 'Ramesh Iyer', date: '3 days ago', rating: 5, comment: 'Authentic Chennai experience! Beautiful heritage property.' },
+      { name: 'Kavitha Sundaram', date: '6 days ago', rating: 4, comment: 'Great location near temples. Very cultural!' }
+    ]
+  },
+  {
+    id: "chennai-003",
+    city: "Chennai",
+    name: "IT Park Hotel in OMR",
+    type: "Deluxe",
+    description: "Modern business hotel on Old Mahabalipuram Road. Perfect for IT professionals.",
+    priceINR: 3500,
+    price: 3500,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 167,
+    location: "OMR, Chennai, Tamil Nadu",
+    address: "Old Mahabalipuram Road, Thoraipakkam, Chennai 600097",
+    distanceToCityCenter: "18 km from Central Chennai",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Shuttle Service'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Business Center', 'Gym', 'IT Park Access'],
+    bestFor: ['Business Travelers', 'IT Professionals', 'Corporate Guests'],
+    reviewsList: [
+      { name: 'Arun Prasad', date: '2 days ago', rating: 4, comment: 'Convenient for IT park work. Good facilities.' },
+      { name: 'Nithya Balaji', date: '5 days ago', rating: 5, comment: 'Perfect for business trips to OMR!' }
+    ]
+  },
+  {
+    id: "chennai-004",
+    city: "Chennai",
+    name: "Budget Inn near T Nagar",
+    type: "Standard",
+    description: "Affordable hotel in shopping district. Close to T Nagar and Pondy Bazaar.",
+    priceINR: 2200,
+    price: 2200,
+    currency: "INR",
+    rating: 4.3,
+    reviews: 112,
+    location: "T Nagar, Chennai, Tamil Nadu",
+    address: "Usman Road, T Nagar, Chennai 600017",
+    distanceToCityCenter: "7 km from Central Chennai",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'Queen Bed', 'Shopping Access', 'Clean Rooms'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Budget Friendly', 'Shopping Access', 'WiFi', 'AC'],
+    bestFor: ['Budget Travelers', 'Shopping Enthusiasts', 'Solo Travelers'],
+    reviewsList: [
+      { name: 'Venkat Krishnan', date: '4 days ago', rating: 4, comment: 'Good value for money. Great for shopping!' },
+      { name: 'Sangeetha Ravi', date: '1 week ago', rating: 4, comment: 'Clean and affordable. Perfect location!' }
+    ]
+  },
+
+  // Hyderabad Rooms
+  {
+    id: "hyderabad-001",
+    city: "Hyderabad",
+    name: "Nawabi Suite near Charminar",
+    type: "Suite",
+    description: "Experience Hyderabadi royalty in this Nawabi-themed suite. Close to historic Charminar.",
+    priceINR: 4800,
+    price: 4800,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 189,
+    location: "Old City, Hyderabad, Telangana",
+    address: "Charminar Road, Old City, Hyderabad 500002",
+    distanceToCityCenter: "In historic center",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800',
+      'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'breakfast', 'concierge'],
+    capacity: 4,
+    available: true,
+    features: ['Heritage View', 'King Bed', 'Traditional Decor', 'Private Dining', 'Cultural Tours'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Heritage', 'Charminar View', 'Breakfast', 'Cultural Tours'],
+    bestFor: ['History Buffs', 'Culture Seekers', 'Families'],
+    reviewsList: [
+      { name: 'Mohammed Ali', date: '3 days ago', rating: 5, comment: 'Authentic Hyderabadi experience! Loved the Nawabi theme.' },
+      { name: 'Fatima Khan', date: '1 week ago', rating: 5, comment: 'Beautiful suite with amazing heritage charm!' }
+    ]
+  },
+  {
+    id: "hyderabad-002",
+    city: "Hyderabad",
+    name: "Hi-Tech City Business Hotel",
+    type: "Deluxe",
+    description: "Modern hotel in Cyberabad. Perfect for IT professionals and business travelers.",
+    priceINR: 4200,
+    price: 4200,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 234,
+    location: "Hi-Tech City, Hyderabad, Telangana",
+    address: "HITEC City, Madhapur, Hyderabad 500081",
+    distanceToCityCenter: "12 km from Charminar",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Corporate Lounge'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Business Center', 'Gym', 'Tech Park Access'],
+    bestFor: ['Business Travelers', 'IT Professionals', 'Corporate Events'],
+    reviewsList: [
+      { name: 'Srinivas Rao', date: '2 days ago', rating: 5, comment: 'Perfect for business in Hi-Tech City!' },
+      { name: 'Priyanka Reddy', date: '5 days ago', rating: 4, comment: 'Great amenities and location for work.' }
+    ]
+  },
+  {
+    id: "hyderabad-003",
+    city: "Hyderabad",
+    name: "Lake View Resort at Hussain Sagar",
+    type: "Deluxe",
+    description: "Serene lake-facing resort with views of Hussain Sagar and Buddha statue.",
+    priceINR: 5200,
+    price: 5200,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 176,
+    location: "Necklace Road, Hyderabad, Telangana",
+    address: "Necklace Road, Khairatabad, Hyderabad 500004",
+    distanceToCityCenter: "3 km from Charminar",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa'],
+    capacity: 3,
+    available: true,
+    features: ['Lake View', 'King Bed', 'Balcony', 'Mini Bar', 'Boat Rides'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Lake View', 'Pool', 'Spa', 'Boat Rides'],
+    bestFor: ['Couples', 'Families', 'Relaxation'],
+    reviewsList: [
+      { name: 'Vikram Kumar', date: '4 days ago', rating: 5, comment: 'Beautiful lake views! Very peaceful.' },
+      { name: 'Deepa Shetty', date: '1 week ago', rating: 4, comment: 'Great location and amenities!' }
+    ]
+  },
+  {
+    id: "hyderabad-004",
+    city: "Hyderabad",
+    name: "Banjara Hills Boutique Stay",
+    type: "Suite",
+    description: "Upscale boutique hotel in posh Banjara Hills. Close to cafes and shopping.",
+    priceINR: 4800,
+    price: 4800,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 156,
+    location: "Banjara Hills, Hyderabad, Telangana",
+    address: "Road No. 12, Banjara Hills, Hyderabad 500034",
+    distanceToCityCenter: "8 km from Charminar",
+    images: [
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'gym'],
+    capacity: 3,
+    available: true,
+    features: ['City View', 'King Bed', 'Modern Design', 'Mini Bar', 'Rooftop Pool'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Rooftop Pool', 'Posh Area', 'WiFi', 'Shopping'],
+    bestFor: ['Luxury Seekers', 'Couples', 'Business Travelers'],
+    reviewsList: [
+      { name: 'Arjun Malhotra', date: '3 days ago', rating: 5, comment: 'Stylish boutique hotel! Great location.' },
+      { name: 'Sneha Gupta', date: '6 days ago', rating: 4, comment: 'Lovely stay in Banjara Hills!' }
+    ]
+  },
+
+  // Kolkata Rooms
+  {
+    id: "kolkata-001",
+    city: "Kolkata",
+    name: "Colonial Heritage Hotel on Park Street",
+    type: "Suite",
+    description: "Historic colonial-era hotel on famous Park Street. Experience Kolkata's rich heritage.",
+    priceINR: 4500,
+    price: 4500,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 203,
+    location: "Park Street, Kolkata, West Bengal",
+    address: "17 Park Street, Kolkata 700016",
+    distanceToCityCenter: "In city center",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'breakfast', 'bar'],
+    capacity: 3,
+    available: true,
+    features: ['Heritage Property', 'King Bed', 'Colonial Decor', 'Bar Access', 'Cultural Events'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Heritage', 'Park Street', 'Breakfast', 'Bar'],
+    bestFor: ['History Buffs', 'Couples', 'Culture Seekers'],
+    reviewsList: [
+      { name: 'Soumya Banerjee', date: '2 days ago', rating: 5, comment: 'Authentic Kolkata charm! Loved Park Street location.' },
+      { name: 'Riya Chatterjee', date: '1 week ago', rating: 4, comment: 'Beautiful colonial property. Great ambiance!' }
+    ]
+  },
+  {
+    id: "kolkata-002",
+    city: "Kolkata",
+    name: "Howrah Bridge View Room",
+    type: "Deluxe",
+    description: "Modern hotel with stunning views of iconic Howrah Bridge. River-facing rooms available.",
+    priceINR: 3800,
+    price: 3800,
+    currency: "INR",
+    rating: 4.6,
+    reviews: 167,
+    location: "Howrah Bridge Area, Kolkata, West Bengal",
+    address: "Strand Road, Near Howrah Bridge, Kolkata 700001",
+    distanceToCityCenter: "2 km from BBD Bagh",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'breakfast'],
+    capacity: 2,
+    available: true,
+    features: ['Bridge View', 'King Bed', 'River View', 'Balcony', 'Breakfast Included'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Bridge View', 'River View', 'Breakfast', 'WiFi'],
+    bestFor: ['Photographers', 'Sightseers', 'Couples'],
+    reviewsList: [
+      { name: 'Amit Roy', date: '3 days ago', rating: 5, comment: 'Spectacular bridge views! Worth it for the location.' },
+      { name: 'Pallavi Sen', date: '6 days ago', rating: 4, comment: 'Beautiful room with iconic Kolkata views!' }
+    ]
+  },
+  {
+    id: "kolkata-003",
+    city: "Kolkata",
+    name: "Salt Lake Business Hotel",
+    type: "Deluxe",
+    description: "Contemporary business hotel in IT hub of Salt Lake. Near Sector V tech park.",
+    priceINR: 3500,
+    price: 3500,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 145,
+    location: "Salt Lake, Kolkata, West Bengal",
+    address: "Sector V, Salt Lake, Kolkata 700091",
+    distanceToCityCenter: "10 km from Park Street",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Conference Rooms'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Business Center', 'Gym', 'Tech Park'],
+    bestFor: ['Business Travelers', 'IT Professionals', 'Corporate Events'],
+    reviewsList: [
+      { name: 'Rajdeep Das', date: '2 days ago', rating: 4, comment: 'Good for business in Sector V. Convenient!' },
+      { name: 'Nandini Ghosh', date: '5 days ago', rating: 5, comment: 'Perfect for work trips to Salt Lake!' }
+    ]
+  },
+  {
+    id: "kolkata-004",
+    city: "Kolkata",
+    name: "Budget Stay near New Market",
+    type: "Standard",
+    description: "Affordable hotel in shopping district. Perfect for budget travelers and shoppers.",
+    priceINR: 1800,
+    price: 1800,
+    currency: "INR",
+    rating: 4.2,
+    reviews: 98,
+    location: "New Market, Kolkata, West Bengal",
+    address: "Lindsay Street, New Market, Kolkata 700087",
+    distanceToCityCenter: "1.5 km from Park Street",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'Queen Bed', 'Shopping Access', 'Clean Rooms'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Budget Friendly', 'Shopping', 'WiFi', 'Central Location'],
+    bestFor: ['Budget Travelers', 'Shoppers', 'Backpackers'],
+    reviewsList: [
+      { name: 'Rohit Sarkar', date: '4 days ago', rating: 4, comment: 'Great budget option near New Market!' },
+      { name: 'Ankita Dutta', date: '1 week ago', rating: 4, comment: 'Clean and affordable. Perfect for shopping!' }
+    ]
+  },
+
+  // Pune Rooms
+  {
+    id: "pune-001",
+    city: "Pune",
+    name: "Heritage Bungalow in Koregaon Park",
+    type: "Villa",
+    description: "Restored colonial bungalow in trendy Koregaon Park. Surrounded by cafes and boutiques.",
+    priceINR: 5500,
+    price: 5500,
+    currency: "INR",
+    rating: 4.8,
+    reviews: 178,
+    location: "Koregaon Park, Pune, Maharashtra",
+    address: "Lane 5, Koregaon Park, Pune 411001",
+    distanceToCityCenter: "3 km from Pune Station",
+    images: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800',
+      'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'kitchen', 'garden', 'pool'],
+    capacity: 6,
+    available: true,
+    features: ['Heritage Property', 'King Bed', 'Garden', 'Full Kitchen', 'Private Pool'],
+    cancellation: 'Free cancellation up to 72 hours',
+    popularAmenities: ['Heritage', 'Pool', 'Garden', 'Trendy Area'],
+    bestFor: ['Families', 'Groups', 'Luxury Seekers'],
+    reviewsList: [
+      { name: 'Sameer Joshi', date: '3 days ago', rating: 5, comment: 'Beautiful heritage property! Loved the garden.' },
+      { name: 'Aditi Kulkarni', date: '1 week ago', rating: 5, comment: 'Perfect bungalow in Koregaon Park!' }
+    ]
+  },
+  {
+    id: "pune-002",
+    city: "Pune",
+    name: "Hill Station Resort in Lonavala",
+    type: "Deluxe",
+    description: "Scenic resort near Pune in hill station of Lonavala. Perfect weekend getaway.",
+    priceINR: 4200,
+    price: 4200,
+    currency: "INR",
+    rating: 4.7,
+    reviews: 234,
+    location: "Lonavala, Near Pune, Maharashtra",
+    address: "Old Mumbai-Pune Highway, Lonavala 410401",
+    distanceToCityCenter: "65 km from Pune",
+    images: [
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800',
+      'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800',
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'pool', 'spa'],
+    capacity: 4,
+    available: true,
+    features: ['Hill View', 'King Bed', 'Balcony', 'Spa Access', 'Nature Walks'],
+    cancellation: 'Free cancellation up to 48 hours',
+    popularAmenities: ['Hill View', 'Pool', 'Spa', 'Nature'],
+    bestFor: ['Couples', 'Families', 'Weekend Getaway'],
+    reviewsList: [
+      { name: 'Nikhil Patil', date: '2 days ago', rating: 5, comment: 'Perfect hill station escape! Beautiful views.' },
+      { name: 'Pooja Deshpande', date: '5 days ago', rating: 4, comment: 'Great weekend getaway from Pune!' }
+    ]
+  },
+  {
+    id: "pune-003",
+    city: "Pune",
+    name: "IT Park Hotel at Hinjewadi",
+    type: "Deluxe",
+    description: "Modern hotel in Hinjewadi IT Park. Ideal for tech professionals and business travelers.",
+    priceINR: 3800,
+    price: 3800,
+    currency: "INR",
+    rating: 4.5,
+    reviews: 189,
+    location: "Hinjewadi, Pune, Maharashtra",
+    address: "Phase 1, Hinjewadi IT Park, Pune 411057",
+    distanceToCityCenter: "20 km from Pune Station",
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800',
+      'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'coffee', 'gym', 'business-center'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'King Bed', 'Work Desk', 'High-Speed WiFi', 'Shuttle Service'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['High-Speed WiFi', 'Business Center', 'Gym', 'IT Park'],
+    bestFor: ['Business Travelers', 'Tech Professionals', 'Corporate Guests'],
+    reviewsList: [
+      { name: 'Siddharth Rane', date: '3 days ago', rating: 4, comment: 'Convenient for Hinjewadi work. Good amenities.' },
+      { name: 'Shruti Bhosale', date: '1 week ago', rating: 5, comment: 'Perfect for business trips!' }
+    ]
+  },
+  {
+    id: "pune-004",
+    city: "Pune",
+    name: "University Area Guest House",
+    type: "Standard",
+    description: "Affordable guest house near Pune University. Popular with students and budget travelers.",
+    priceINR: 2000,
+    price: 2000,
+    currency: "INR",
+    rating: 4.3,
+    reviews: 123,
+    location: "University Area, Pune, Maharashtra",
+    address: "Ganeshkhind Road, Near University, Pune 411007",
+    distanceToCityCenter: "5 km from Pune Station",
+    images: [
+      'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
+      'https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800'
+    ],
+    amenities: ['wifi', 'tv', 'ac', 'parking', 'breakfast'],
+    capacity: 2,
+    available: true,
+    features: ['City View', 'Queen Bed', 'Study Desk', 'Breakfast Included'],
+    cancellation: 'Free cancellation up to 24 hours',
+    popularAmenities: ['Budget Friendly', 'University Area', 'WiFi', 'Breakfast'],
+    bestFor: ['Students', 'Budget Travelers', 'Solo Travelers'],
+    reviewsList: [
+      { name: 'Karan Desai', date: '4 days ago', rating: 4, comment: 'Good budget option near university!' },
+      { name: 'Tanvi Khanna', date: '1 week ago', rating: 4, comment: 'Clean and affordable. Great for students!' }
+    ]
+  }
+];
+
+export const amenityIcons = {
+  wifi: 'ðŸ“¶',
+  tv: 'ðŸ“º',
+  ac: 'â„ï¸',
+  parking: 'ðŸ…¿ï¸',
+  coffee: 'â˜•',
+  pool: 'ðŸŠ',
+  spa: 'ðŸ’†',
+  gym: 'ðŸ‹ï¸',
+  concierge: 'ðŸ›Žï¸',
+  rooftop: 'ðŸ™ï¸',
+  kitchen: 'ðŸ³',
+  laundry: 'ðŸ§º',
+  fireplace: 'ðŸ”¥',
+  'beach-access': 'ðŸ–ï¸',
+  bbq: 'ðŸ–',
+  'outdoor-shower': 'ðŸš¿',
+  'business-center': 'ðŸ’¼',
+  garden: 'ðŸŒ³',
+  breakfast: 'ðŸ¥',
+  'ski-storage': 'â›·ï¸',
+  'hot-tub': 'ðŸ›',
+  bar: 'ðŸ¹',
+  patio: 'ðŸ¡',
+  'exposed-brick': 'ðŸ§±'
+};
