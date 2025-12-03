@@ -4,8 +4,8 @@ A full-stack room booking application built with React.js frontend and JSON Serv
 
 ## 📹 Demo Videos
 
-- **Live Demo**: [Watch Application Demo](https://drive.google.com/file/d/1h5ZHzRD_yNE4HJYswApEcE2hDwSG5yc7/view?usp=drivesdk)
-- **Code Walkthrough**: [Watch Code Explanation](https://drive.google.com/file/d/1-dcOq63eypowCeZfgOBu8uCOz98Lvta7/view?usp=drivesdk)
+- **Live Demo**: [Watch Application Demo]https://drive.google.com/file/d/1Lm7FOm6irmy9nP4bpGIJ6M3S9CFpnNTj/view?usp=drivesdk)
+- **Code Walkthrough**: [Watch Code Explanation](https://drive.google.com/file/d/1h5ZHzRD_yNE4HJYswApEcE2hDwSG5yc7/view?usp=drivesdk)
 
 ## ✨ Features
 
