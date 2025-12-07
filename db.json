@@ -2300,7 +2300,7 @@
   ],
   "bookings": [
     {
-      "id": "e557",
+      "id": "060f",
       "fullName": "nikhil",
       "email": "rahul123@gmail.com",
       "phone": "8121434439",
@@ -2309,33 +2309,33 @@
       "state": "",
       "pincode": "",
       "country": "",
-      "checkIn": "2025-11-28",
-      "checkOut": "2025-11-29",
+      "checkIn": "2025-12-04",
+      "checkOut": "2025-12-05",
       "guests": 1,
       "specialRequests": "",
       "nights": 1,
-      "subtotal": 8500,
-      "tax": 850,
+      "subtotal": 4000,
+      "tax": 400,
       "serviceFee": 150,
-      "total": 9500,
+      "total": 4550,
       "room": {
-        "id": "jaipur-001",
-        "city": "Jaipur",
-        "name": "Royal Palace Room at Jaipur City Palace",
-        "type": "Suite",
-        "description": "Experience royalty in this palace suite with traditional Rajasthani decor and modern luxuries.",
-        "priceINR": 8500,
-        "price": 8500,
+        "id": "mumbai-004",
+        "city": "Mumbai",
+        "name": "Business Hotel near BKC",
+        "type": "Deluxe",
+        "description": "Modern business hotel in Bandra Kurla Complex. Ideal for corporate travelers with excellent connectivity.",
+        "priceINR": 4000,
+        "price": 4000,
         "currency": "INR",
-        "rating": 4.9,
-        "reviews": 218,
-        "location": "City Palace Area, Jaipur, Rajasthan",
-        "address": "Near City Palace, Old City, Jaipur 302002",
-        "distanceToCityCenter": "In Pink City center",
+        "rating": 4.6,
+        "reviews": 142,
+        "location": "Bandra Kurla Complex, Mumbai, Maharashtra",
+        "address": "C-58, G Block, BKC, Mumbai 400051",
+        "distanceToCityCenter": "15 km from Gateway of India",
         "images": [
-          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800",
-          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800",
+          "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800"
         ],
         "amenities": [
           "wifi",
@@ -2343,48 +2343,136 @@
           "ac",
           "parking",
           "coffee",
-          "pool",
-          "spa",
-          "concierge"
+          "gym",
+          "business-center"
         ],
-        "capacity": 4,
+        "capacity": 2,
         "available": true,
         "features": [
-          "Palace View",
+          "City View",
           "King Bed",
-          "Traditional Decor",
-          "Private Terrace",
-          "Butler Service"
+          "Work Desk",
+          "High-Speed WiFi",
+          "Coffee Maker",
+          "Iron"
         ],
-        "cancellation": "Free cancellation up to 72 hours",
+        "cancellation": "Free cancellation up to 24 hours",
         "popularAmenities": [
-          "Heritage",
-          "Butler Service",
-          "Pool",
-          "Royal Experience"
+          "Free WiFi",
+          "Business Center",
+          "Gym",
+          "Parking"
         ],
         "bestFor": [
-          "Luxury Seekers",
-          "Honeymoon",
-          "Special Occasions"
+          "Business Travelers",
+          "Corporate Events",
+          "Meetings"
         ],
         "reviewsList": [
           {
-            "name": "Aryan Singh",
-            "date": "2 days ago",
+            "name": "Rohan Kapoor",
+            "date": "4 days ago",
             "rating": 5,
-            "comment": "Lived like royalty! Unforgettable experience."
+            "comment": "Perfect for business trips. Great location in BKC."
           },
           {
-            "name": "Divya Rajput",
+            "name": "Meera Joshi",
             "date": "1 week ago",
-            "rating": 5,
-            "comment": "Stunning palace suite! Perfect for honeymoon."
+            "rating": 4,
+            "comment": "Clean, professional, and convenient."
           }
         ]
       },
-      "bookingId": "BK1764349014399",
-      "bookingDate": "2025-11-28T16:56:54.399Z",
+      "bookingId": "BK1764832263848",
+      "bookingDate": "2025-12-04T07:11:03.848Z",
+      "userId": "1a57"
+    },
+    {
+      "id": "3bb7",
+      "fullName": "nikhil",
+      "email": "rahul123@gmail.com",
+      "phone": "8121434439",
+      "address": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "country": "",
+      "checkIn": "2025-12-23",
+      "checkOut": "2025-12-25",
+      "guests": 2,
+      "specialRequests": "",
+      "nights": 2,
+      "subtotal": 8000,
+      "tax": 800,
+      "serviceFee": 150,
+      "total": 8950,
+      "room": {
+        "id": "mumbai-004",
+        "city": "Mumbai",
+        "name": "Business Hotel near BKC",
+        "type": "Deluxe",
+        "description": "Modern business hotel in Bandra Kurla Complex. Ideal for corporate travelers with excellent connectivity.",
+        "priceINR": 4000,
+        "price": 4000,
+        "currency": "INR",
+        "rating": 4.6,
+        "reviews": 142,
+        "location": "Bandra Kurla Complex, Mumbai, Maharashtra",
+        "address": "C-58, G Block, BKC, Mumbai 400051",
+        "distanceToCityCenter": "15 km from Gateway of India",
+        "images": [
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800",
+          "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800"
+        ],
+        "amenities": [
+          "wifi",
+          "tv",
+          "ac",
+          "parking",
+          "coffee",
+          "gym",
+          "business-center"
+        ],
+        "capacity": 2,
+        "available": true,
+        "features": [
+          "City View",
+          "King Bed",
+          "Work Desk",
+          "High-Speed WiFi",
+          "Coffee Maker",
+          "Iron"
+        ],
+        "cancellation": "Free cancellation up to 24 hours",
+        "popularAmenities": [
+          "Free WiFi",
+          "Business Center",
+          "Gym",
+          "Parking"
+        ],
+        "bestFor": [
+          "Business Travelers",
+          "Corporate Events",
+          "Meetings"
+        ],
+        "reviewsList": [
+          {
+            "name": "Rohan Kapoor",
+            "date": "4 days ago",
+            "rating": 5,
+            "comment": "Perfect for business trips. Great location in BKC."
+          },
+          {
+            "name": "Meera Joshi",
+            "date": "1 week ago",
+            "rating": 4,
+            "comment": "Clean, professional, and convenient."
+          }
+        ]
+      },
+      "bookingId": "BK1764832380426",
+      "bookingDate": "2025-12-04T07:13:00.426Z",
       "userId": "1a57"
     }
   ],
