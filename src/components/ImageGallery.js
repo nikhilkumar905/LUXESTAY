@@ -1,8 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
 import './ImageGallery.css';
+
+const CustomLightbox = ({ images, currentIndex, roomName, onClose, onPrev, onNext }) => {
+  useEffect(() => {
+    const handleKey = (e) => {
+      if (e.key === 'ArrowLeft') onPrev();
+      else if (e.key === 'ArrowRight') onNext();
+      else if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [onPrev, onNext, onClose]);
+
+  return (
+    <div className="lightbox-overlay" onClick={onClose}>
+      <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+        <button className="lightbox-close" onClick={onClose}><X size={28} /></button>
+        <button className="lightbox-nav lightbox-prev" onClick={onPrev}><ChevronLeft size={36} /></button>
+        <img
+          className="lightbox-image"
+          src={images[currentIndex]}
+          alt={`${roomName} - Image ${currentIndex + 1} of ${images.length}`}
+        />
+        <button className="lightbox-nav lightbox-next" onClick={onNext}><ChevronRight size={36} /></button>
+        <div className="lightbox-caption">{roomName} — {currentIndex + 1} / {images.length}</div>
+      </div>
+    </div>
+  );
+};
 
 const ImageGallery = ({ images, roomName }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -57,14 +83,13 @@ const ImageGallery = ({ images, roomName }) => {
       </div>
 
       {isLightboxOpen && (
-        <Lightbox
-          mainSrc={images[currentImage]}
-          nextSrc={images[(currentImage + 1) % images.length]}
-          prevSrc={images[(currentImage + images.length - 1) % images.length]}
-          onCloseRequest={() => setIsLightboxOpen(false)}
-          onMovePrevRequest={() => setCurrentImage((currentImage + images.length - 1) % images.length)}
-          onMoveNextRequest={() => setCurrentImage((currentImage + 1) % images.length)}
-          imageTitle={`${roomName} - Image ${currentImage + 1} of ${images.length}`}
+        <CustomLightbox
+          images={images}
+          currentIndex={currentImage}
+          roomName={roomName}
+          onClose={() => setIsLightboxOpen(false)}
+          onPrev={() => setCurrentImage((currentImage + images.length - 1) % images.length)}
+          onNext={() => setCurrentImage((currentImage + 1) % images.length)}
         />
       )}
     </>
